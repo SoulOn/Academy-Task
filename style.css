@@ -1,0 +1,119 @@
+html {
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+	-webkit-box-sizing: inherit;
+	-moz-box-sizing: inherit;
+	box-sizing: inherit;
+}
+
+
+body{
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+  font-family: 'Open Sans', sans-serif;
+  color: #394250;
+}
+
+.page-container{
+  max-width: 1024px;
+  margin: 60px auto 20px;
+}
+
+
+.search-container:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.search-container form {
+  float: right;
+  padding: 0 10px;
+}
+
+
+.search-container form.sort_form {
+  float: left;
+}
+
+.book_list{
+  list-style: none;
+  padding: 0;
+}
+
+.book_list li{
+  width: 100%;
+  padding: 0 10px;
+  border-bottom: 1px solid #ededed;
+}
+
+
+.book_list li:nth-child(2n+2){
+  background: rgba(225, 242, 249, 0.27);
+}
+
+
+.book_list li:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+
+.book_list li span{
+  width: 25%;
+  padding: 10px;
+  display: block;
+  float: left;
+}
+
+.book_list li span.book_name{
+  width: 35%;
+}
+
+.book_list li span.release_date{
+  text-align: center;
+  width: 15%;
+}
+
+.book_list .table-header{
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.pagination{
+  width: 100%;
+  text-align: center;
+}
+
+a{
+  font-weight: 600;
+  text-decoration: none;
+  color: #394250;
+}
+
+a:hover{
+  color: #0d58ce;
+}
+
+a:focus,
+a:active{
+  color: #0d58ce;
+
+}
+
+.pagination a{
+  padding: 0 7px;
+
+}
